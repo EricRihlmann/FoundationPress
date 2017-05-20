@@ -82,7 +82,6 @@ before_script:
   - cd php-codesniffer
   - ls
   - ls $WP_DEVELOP_DIR/php-codesniffer/scripts
-  - ls $WP_DEVELOP_DIR/php-codesniffer/scripts/phpcs
   # Set install path for WordPress Coding Standards.
   # @link https://github.com/squizlabs/PHP_CodeSniffer/blob/4237c2fc98cc838730b76ee9cee316f99286a2a7/CodeSniffer.php#L1941
   - $WP_DEVELOP_DIR/php-codesniffer/scripts --config-set installed_paths ../wordpress-coding-standards
